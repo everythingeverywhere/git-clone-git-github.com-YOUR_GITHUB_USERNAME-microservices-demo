@@ -16,7 +16,7 @@
         "redis",
         "shippingservice"
     ],
-    "namespace": "adoption-journey",
+    "namespace": "adoption-journey-dev",
     "port_forwards": [
         "frontend:9090"
     ]

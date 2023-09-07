@@ -1,9 +1,9 @@
 {
     "allowed_contexts": [
-        "docker-desktop"
+        "do-nyc1-microservices-demo-dev"
     ],
-    "default_registry": "",
-    "environment": "local",
+    "default_registry": "registry.digitalocean.com/adoption-journey",
+    "environment": "dev",
     "microservices": [
         "cartservice",
         "checkoutservice",
@@ -16,7 +16,7 @@
         "redis",
         "shippingservice"
     ],
-    "namespace": "microservices-demo-local",
+    "namespace": "adoption-journey",
     "port_forwards": [
         "frontend:9090"
     ]
